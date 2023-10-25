@@ -1,0 +1,11 @@
+void ten(int);
+void eleven();
+void twelfth(int num);
+void thirteen();
+void fourteen();
+void fifteen(int number);
+void fifteen(int numberW, int numberH);
+void sixteen(int number);
+void seventeen(int number);
+void eighteen();
+void nineteen();

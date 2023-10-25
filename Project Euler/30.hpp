@@ -1,0 +1,10 @@
+void thirty(int);
+void thirtyOne();
+void thirtyTwo();
+void thirtyThree();
+void thirtyFour();
+void thirtyFive();
+void thirtySix();
+void thirtySeven();
+void thirtyEight();
+void thirtyNine();

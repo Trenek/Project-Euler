@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Podprogramy">
+      <UniqueIdentifier>{ac621df9-673c-4ccf-911f-9b10a7f94064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Podprogramy\isPrime">
+      <UniqueIdentifier>{1b1862bd-cf15-45ac-afd8-81842994595a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\100">
+      <UniqueIdentifier>{d7f11093-c96d-45cf-8caa-d93d1841ae8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\100\00">
+      <UniqueIdentifier>{0ca1a600-1f34-4ea0-95f9-aff64fb715eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\100\10">
+      <UniqueIdentifier>{8c76d57a-6660-46cf-ba6c-95c11c53fd8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\100\20">
+      <UniqueIdentifier>{52cee8b9-5ae2-4591-af80-977798618703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\100\30">
+      <UniqueIdentifier>{e7455986-8784-4c44-b904-b60be3154749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Podprogramy\getDigits">
+      <UniqueIdentifier>{b968f24e-13d7-4e42-9e84-e12095d6a4e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\100\40">
+      <UniqueIdentifier>{0a5c6486-b4bd-4f34-96b0-bbb7238745ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Podprogramy\join">
+      <UniqueIdentifier>{431cec1e-51eb-463c-b854-de0b6c7a195d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Project Euler.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="1.cpp">
+      <Filter>Pliki źródłowe\100\00</Filter>
+    </ClCompile>
+    <ClCompile Include="2.cpp">
+      <Filter>Pliki źródłowe\100\00</Filter>
+    </ClCompile>
+    <ClCompile Include="3.cpp">
+      <Filter>Pliki źródłowe\100\00</Filter>
+    </ClCompile>
+    <ClCompile Include="4.cpp">
+      <Filter>Pliki źródłowe\100\00</Filter>
+    </ClCompile>
+    <ClCompile Include="5.cpp">
+      <Filter>Pliki źródłowe\100\00</Filter>
+    </ClCompile>
+    <ClCompile Include="6.cpp">
+      <Filter>Pliki źródłowe\100\00</Filter>
+    </ClCompile>
+    <ClCompile Include="7.cpp">
+      <Filter>Pliki źródłowe\100\00</Filter>
+    </ClCompile>
+    <ClCompile Include="8.cpp">
+      <Filter>Pliki źródłowe\100\00</Filter>
+    </ClCompile>
+    <ClCompile Include="9.cpp">
+      <Filter>Pliki źródłowe\100\00</Filter>
+    </ClCompile>
+    <ClCompile Include="isPrime.cpp">
+      <Filter>Pliki źródłowe\Podprogramy\isPrime</Filter>
+    </ClCompile>
+    <ClCompile Include="11.cpp">
+      <Filter>Pliki źródłowe\100\10</Filter>
+    </ClCompile>
+    <ClCompile Include="12.cpp">
+      <Filter>Pliki źródłowe\100\10</Filter>
+    </ClCompile>
+    <ClCompile Include="13.cpp">
+      <Filter>Pliki źródłowe\100\10</Filter>
+    </ClCompile>
+    <ClCompile Include="14.cpp">
+      <Filter>Pliki źródłowe\100\10</Filter>
+    </ClCompile>
+    <ClCompile Include="15.cpp">
+      <Filter>Pliki źródłowe\100\10</Filter>
+    </ClCompile>
+    <ClCompile Include="16.cpp">
+      <Filter>Pliki źródłowe\100\10</Filter>
+    </ClCompile>
+    <ClCompile Include="17.cpp">
+      <Filter>Pliki źródłowe\100\10</Filter>
+    </ClCompile>
+    <ClCompile Include="18.cpp">
+      <Filter>Pliki źródłowe\100\10</Filter>
+    </ClCompile>
+    <ClCompile Include="19.cpp">
+      <Filter>Pliki źródłowe\100\10</Filter>
+    </ClCompile>
+    <ClCompile Include="10.cpp">
+      <Filter>Pliki źródłowe\100\10</Filter>
+    </ClCompile>
+    <ClCompile Include="20.cpp">
+      <Filter>Pliki źródłowe\100\20</Filter>
+    </ClCompile>
+    <ClCompile Include="21.cpp">
+      <Filter>Pliki źródłowe\100\20</Filter>
+    </ClCompile>
+    <ClCompile Include="22.cpp">
+      <Filter>Pliki źródłowe\100\20</Filter>
+    </ClCompile>
+    <ClCompile Include="23.cpp">
+      <Filter>Pliki źródłowe\100\20</Filter>
+    </ClCompile>
+    <ClCompile Include="24.cpp">
+      <Filter>Pliki źródłowe\100\20</Filter>
+    </ClCompile>
+    <ClCompile Include="25.cpp">
+      <Filter>Pliki źródłowe\100\20</Filter>
+    </ClCompile>
+    <ClCompile Include="26.cpp">
+      <Filter>Pliki źródłowe\100\20</Filter>
+    </ClCompile>
+    <ClCompile Include="27.cpp">
+      <Filter>Pliki źródłowe\100\20</Filter>
+    </ClCompile>
+    <ClCompile Include="28.cpp">
+      <Filter>Pliki źródłowe\100\20</Filter>
+    </ClCompile>
+    <ClCompile Include="29.cpp">
+      <Filter>Pliki źródłowe\100\20</Filter>
+    </ClCompile>
+    <ClCompile Include="30.cpp">
+      <Filter>Pliki źródłowe\100\30</Filter>
+    </ClCompile>
+    <ClCompile Include="31.cpp">
+      <Filter>Pliki źródłowe\100\30</Filter>
+    </ClCompile>
+    <ClCompile Include="32.cpp">
+      <Filter>Pliki źródłowe\100\30</Filter>
+    </ClCompile>
+    <ClCompile Include="33.cpp">
+      <Filter>Pliki źródłowe\100\30</Filter>
+    </ClCompile>
+    <ClCompile Include="34.cpp">
+      <Filter>Pliki źródłowe\100\30</Filter>
+    </ClCompile>
+    <ClCompile Include="35.cpp">
+      <Filter>Pliki źródłowe\100\30</Filter>
+    </ClCompile>
+    <ClCompile Include="36.cpp">
+      <Filter>Pliki źródłowe\100\30</Filter>
+    </ClCompile>
+    <ClCompile Include="37.cpp">
+      <Filter>Pliki źródłowe\100\30</Filter>
+    </ClCompile>
+    <ClCompile Include="getDigits.cpp">
+      <Filter>Pliki źródłowe\Podprogramy\getDigits</Filter>
+    </ClCompile>
+    <ClCompile Include="38.cpp">
+      <Filter>Pliki źródłowe\100\30</Filter>
+    </ClCompile>
+    <ClCompile Include="39.cpp">
+      <Filter>Pliki źródłowe\100\30</Filter>
+    </ClCompile>
+    <ClCompile Include="40.cpp">
+      <Filter>Pliki źródłowe\100\40</Filter>
+    </ClCompile>
+    <ClCompile Include="41.cpp">
+      <Filter>Pliki źródłowe\100\40</Filter>
+    </ClCompile>
+    <ClCompile Include="join.cpp">
+      <Filter>Pliki źródłowe\Podprogramy\join</Filter>
+    </ClCompile>
+    <ClCompile Include="42.cpp">
+      <Filter>Pliki źródłowe\100\40</Filter>
+    </ClCompile>
+    <ClCompile Include="43.cpp">
+      <Filter>Pliki źródłowe\100\40</Filter>
+    </ClCompile>
+    <ClCompile Include="44.cpp">
+      <Filter>Pliki źródłowe\100\40</Filter>
+    </ClCompile>
+    <ClCompile Include="45.cpp">
+      <Filter>Pliki źródłowe\100\40</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="00.hpp">
+      <Filter>Pliki źródłowe\100\00</Filter>
+    </ClInclude>
+    <ClInclude Include="isPrime.h">
+      <Filter>Pliki źródłowe\Podprogramy\isPrime</Filter>
+    </ClInclude>
+    <ClInclude Include="100.hpp">
+      <Filter>Pliki źródłowe\100</Filter>
+    </ClInclude>
+    <ClInclude Include="10.hpp">
+      <Filter>Pliki źródłowe\100\10</Filter>
+    </ClInclude>
+    <ClInclude Include="20.hpp">
+      <Filter>Pliki źródłowe\100\20</Filter>
+    </ClInclude>
+    <ClInclude Include="30.hpp">
+      <Filter>Pliki źródłowe\100\30</Filter>
+    </ClInclude>
+    <ClInclude Include="getDigits.h">
+      <Filter>Pliki źródłowe\Podprogramy\getDigits</Filter>
+    </ClInclude>
+    <ClInclude Include="40.hpp">
+      <Filter>Pliki źródłowe\100\40</Filter>
+    </ClInclude>
+    <ClInclude Include="join.h">
+      <Filter>Pliki źródłowe\Podprogramy\join</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
