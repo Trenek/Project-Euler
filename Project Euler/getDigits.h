@@ -1,1 +1,1 @@
-int getDigits(int i, int base = 10);
+int getDigits(int i, int base);

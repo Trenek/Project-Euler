@@ -100,10 +100,14 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <WarningLevel>Level3</WarningLevel>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>Default</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DisableSpecificWarnings>5045;4710;4711</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -112,12 +116,16 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <WarningLevel>Level3</WarningLevel>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>Default</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DisableSpecificWarnings>5045;4710;4711</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -127,64 +135,64 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1.cpp" />
-    <ClCompile Include="10.cpp" />
-    <ClCompile Include="11.cpp" />
-    <ClCompile Include="12.cpp" />
-    <ClCompile Include="13.cpp" />
-    <ClCompile Include="14.cpp" />
-    <ClCompile Include="15.cpp" />
-    <ClCompile Include="16.cpp" />
-    <ClCompile Include="17.cpp" />
-    <ClCompile Include="18.cpp" />
-    <ClCompile Include="19.cpp" />
-    <ClCompile Include="2.cpp" />
-    <ClCompile Include="20.cpp" />
-    <ClCompile Include="21.cpp" />
-    <ClCompile Include="22.cpp" />
-    <ClCompile Include="23.cpp" />
-    <ClCompile Include="24.cpp" />
-    <ClCompile Include="25.cpp" />
-    <ClCompile Include="26.cpp" />
-    <ClCompile Include="27.cpp" />
-    <ClCompile Include="28.cpp" />
-    <ClCompile Include="29.cpp" />
-    <ClCompile Include="3.cpp" />
-    <ClCompile Include="30.cpp" />
-    <ClCompile Include="31.cpp" />
-    <ClCompile Include="32.cpp" />
-    <ClCompile Include="33.cpp" />
-    <ClCompile Include="34.cpp" />
-    <ClCompile Include="35.cpp" />
-    <ClCompile Include="36.cpp" />
-    <ClCompile Include="37.cpp" />
-    <ClCompile Include="38.cpp" />
-    <ClCompile Include="39.cpp" />
-    <ClCompile Include="4.cpp" />
-    <ClCompile Include="40.cpp" />
-    <ClCompile Include="41.cpp" />
-    <ClCompile Include="42.cpp" />
-    <ClCompile Include="43.cpp" />
-    <ClCompile Include="44.cpp" />
-    <ClCompile Include="45.cpp" />
-    <ClCompile Include="46.cpp" />
-    <ClCompile Include="5.cpp" />
-    <ClCompile Include="6.cpp" />
-    <ClCompile Include="7.cpp" />
-    <ClCompile Include="8.cpp" />
-    <ClCompile Include="9.cpp" />
-    <ClCompile Include="getDigits.cpp" />
-    <ClCompile Include="isPrime.cpp" />
-    <ClCompile Include="join.cpp" />
-    <ClCompile Include="Project Euler.cpp" />
+    <ClCompile Include="1.c" />
+    <ClCompile Include="10.c" />
+    <ClCompile Include="11.c" />
+    <ClCompile Include="12.c" />
+    <ClCompile Include="13.c" />
+    <ClCompile Include="14.c" />
+    <ClCompile Include="15.c" />
+    <ClCompile Include="16.c" />
+    <ClCompile Include="17.c" />
+    <ClCompile Include="18.c" />
+    <ClCompile Include="19.c" />
+    <ClCompile Include="2.c" />
+    <ClCompile Include="20.c" />
+    <ClCompile Include="21.c" />
+    <ClCompile Include="22.c" />
+    <ClCompile Include="23.c" />
+    <ClCompile Include="24.c" />
+    <ClCompile Include="25.c" />
+    <ClCompile Include="26.c" />
+    <ClCompile Include="27.c" />
+    <ClCompile Include="28.c" />
+    <ClCompile Include="29.c" />
+    <ClCompile Include="3.c" />
+    <ClCompile Include="30.c" />
+    <ClCompile Include="31.c" />
+    <ClCompile Include="32.c" />
+    <ClCompile Include="33.c" />
+    <ClCompile Include="34.c" />
+    <ClCompile Include="35.c" />
+    <ClCompile Include="36.c" />
+    <ClCompile Include="37.c" />
+    <ClCompile Include="38.c" />
+    <ClCompile Include="39.c" />
+    <ClCompile Include="4.c" />
+    <ClCompile Include="40.c" />
+    <ClCompile Include="41.c" />
+    <ClCompile Include="42.c" />
+    <ClCompile Include="43.c" />
+    <ClCompile Include="44.c" />
+    <ClCompile Include="45.c" />
+    <ClCompile Include="46.c" />
+    <ClCompile Include="5.c" />
+    <ClCompile Include="6.c" />
+    <ClCompile Include="7.c" />
+    <ClCompile Include="8.c" />
+    <ClCompile Include="9.c" />
+    <ClCompile Include="getDigits.c" />
+    <ClCompile Include="isPrime.c" />
+    <ClCompile Include="join.c" />
+    <ClCompile Include="Project Euler.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="00.hpp" />
-    <ClInclude Include="100.hpp" />
-    <ClInclude Include="10.hpp" />
-    <ClInclude Include="20.hpp" />
-    <ClInclude Include="30.hpp" />
-    <ClInclude Include="40.hpp" />
+    <ClInclude Include="00.h" />
+    <ClInclude Include="100.h" />
+    <ClInclude Include="10.h" />
+    <ClInclude Include="20.h" />
+    <ClInclude Include="30.h" />
+    <ClInclude Include="40.h" />
     <ClInclude Include="getDigits.h" />
     <ClInclude Include="isPrime.h" />
     <ClInclude Include="join.h" />

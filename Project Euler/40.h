@@ -1,0 +1,10 @@
+void fourty(void);
+void fourtyOne(void);
+void fourtyTwo(void);
+void fourtyThree(void);
+void fourtyFour(void);
+void fourtyFive(void);
+void fourtySix(void);
+//void fourtySeven(void);
+//void fourtyEight(void);
+//void fourtyNine(void);
