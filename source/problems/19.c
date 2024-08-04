@@ -38,6 +38,7 @@ static void increase(struct date *term) {
 		case 8:
 		case 10:
 			term->day += 30;
+			[[fallthrough]];
 		case 1:
 			term->day += 28;
 			if (term->year % 4 == 0) {

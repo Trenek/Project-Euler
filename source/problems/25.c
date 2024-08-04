@@ -17,7 +17,6 @@ void twentyFive(int number) {
 	int b[MAX] = { 0 };
 	int c[MAX] = { 0 };
 	int lengthA = 1;
-	int lengthB = 1;
 	int lengthC = 1;
 	int i = 0;
 	int rest = 0;
@@ -44,7 +43,6 @@ void twentyFive(int number) {
 			lengthA += 1;
 		}
 		arrayCopy(b, c, lengthC);
-		lengthB = lengthC;
 		result += 1;
 	}
 

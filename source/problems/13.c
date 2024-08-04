@@ -58,7 +58,7 @@ static void Add(char *resultOUT, const char *augend, const char *addend) {
 		rest += au + ad;
 	}
 
-	sprintf(resultOUT, "%s\0", cResult + 1);
+	sprintf(resultOUT, "%s", cResult + 1);
 }
 
 void thirteen(void) {

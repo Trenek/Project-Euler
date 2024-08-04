@@ -1,18 +1,20 @@
 ﻿#include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 
-#include "100.h"
+#include "problems.h"
 
-#define ZADANIE 13
-#define NR(x, y) case (x): (y); break
+#define NR(x, y) case (x): y; break
 
-int main(void) {
+void euler(int problem) {
 	struct timespec start = { 0 };
 	struct timespec end = { 0 };
 	struct timespec difference = { 0 };
 
+	printf("\nproblem %i\n", problem);
+
 	timespec_get(&start, TIME_UTC);
-	switch (ZADANIE) {
+	switch (problem) {
 		NR(1, one(1000));
 		NR(2, two(4000000));
 		NR(3, three(600851475143));
@@ -59,6 +61,8 @@ int main(void) {
 		NR(44, fourtyFour());
 		NR(45, fourtyFive());
 		NR(46, fourtySix());
+		default:
+			printf("Problem doesn't exits");
 	}
 	timespec_get(&end, TIME_UTC);
 
@@ -67,5 +71,20 @@ int main(void) {
 		.tv_nsec = end.tv_nsec - start.tv_nsec
 	};
 
-	printf("\nTIME: %lf", difference.tv_sec + difference.tv_nsec / 1000000000.0);
+	printf("\nTIME: %lf\n", difference.tv_sec + difference.tv_nsec / 1000000000.0);
+}
+
+int main(int argc, char *argv[]) {
+	int i = 1;
+	
+	if (argc > 1) {
+		while (i < argc) {
+			euler(atoi(argv[i]));
+			
+			i += 1;
+		}
+	}
+	else {
+		printf("indended use: %s <problem number>", argv[0]);
+	}
 }
